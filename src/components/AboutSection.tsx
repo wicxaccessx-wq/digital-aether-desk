@@ -5,12 +5,12 @@ const AboutSection = () => {
     <section id="about" className="py-20 relative">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 cyber-glow-text text-center">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 cyber-glow-text text-center">
             About Me
           </h2>
-          <div className="h-1 w-24 bg-gradient-to-r from-primary to-secondary mx-auto mb-12 cyber-glow"></div>
+          <div className="h-1 w-24 bg-gradient-to-r from-primary to-secondary mx-auto mb-8 sm:mb-12 cyber-glow"></div>
 
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 mb-8 sm:mb-12">
             <div className="bg-card border border-primary/30 rounded-lg p-6 hover:border-primary transition-glow group">
               <div className="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mb-4 group-hover:cyber-glow transition-glow">
                 <Code2 className="w-6 h-6 text-primary" />
