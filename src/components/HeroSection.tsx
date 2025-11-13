@@ -25,12 +25,12 @@ const HeroSection = () => {
             <span className="text-sm text-muted-foreground font-mono">user@portfolio:~$</span>
           </div>
 
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 cyber-glow-text leading-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-6 cyber-glow-text leading-tight">
             Full Stack Developer &<br />
             <span className="text-secondary">Cybersecurity Enthusiast</span>
           </h1>
 
-          <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto px-4">
             Building secure web applications with a passion for ethical hacking and penetration testing.
             Combining development expertise with cybersecurity knowledge.
           </p>
@@ -56,11 +56,11 @@ const HeroSection = () => {
           </div>
 
           {/* Tech stack icons */}
-          <div className="flex flex-wrap gap-6 justify-center items-center text-muted-foreground">
+          <div className="flex flex-wrap gap-3 sm:gap-4 md:gap-6 justify-center items-center text-muted-foreground px-4">
             {["HTML/CSS", "JavaScript", "Python", "MySQL", "Kali Linux", "Burp Suite"].map((tech) => (
               <div
                 key={tech}
-                className="px-4 py-2 bg-card border border-border rounded-lg hover:border-primary hover:text-primary transition-glow cursor-default"
+                className="px-3 py-2 sm:px-4 text-sm sm:text-base bg-card border border-border rounded-lg hover:border-primary hover:text-primary transition-glow cursor-default"
               >
                 {tech}
               </div>
